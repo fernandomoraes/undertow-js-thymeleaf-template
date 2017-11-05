@@ -21,6 +21,7 @@ public class ThymeleafTemplateProvider implements TemplateProvider {
 
     }
 
+    @SuppressWarnings("unchecked")
     public Template compile(String templateName, String templateContents) {
         return data -> {
             final Context context = new Context(locale, (Map<String, Object>) data);
