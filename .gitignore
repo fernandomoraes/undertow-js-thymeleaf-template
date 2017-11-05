@@ -1,2 +1,3 @@
 .idea
 undertow-js-thymeleaf-template.iml
+/target/
