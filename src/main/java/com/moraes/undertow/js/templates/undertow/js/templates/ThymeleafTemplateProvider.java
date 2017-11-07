@@ -8,6 +8,9 @@ import org.thymeleaf.context.Context;
 import java.util.Locale;
 import java.util.Map;
 
+/**
+ * @author Fernando Moraes
+ */
 public class ThymeleafTemplateProvider implements TemplateProvider {
 
     private final Locale locale = Locale.getDefault();
